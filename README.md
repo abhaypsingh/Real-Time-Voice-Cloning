@@ -62,3 +62,4 @@ depending on whether you downloaded any datasets. If you are running an X-server
 
 ## Contributions & Issues
 I'm working full-time as of June 2019. I don't have time to maintain this repo nor reply to issues. Sorry.
+https://poorlydocumented.com/2019/11/installing-corentinjs-real-time-voice-cloning-project-on-windows-10-from-scratch/#comment-16145
