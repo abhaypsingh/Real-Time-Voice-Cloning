@@ -1,0 +1,3 @@
+Project here: https://github.com/CorentinJ/Real-Time-Voice-Cloning
+
+Original paper: https://arxiv.org/abs/1806.04558

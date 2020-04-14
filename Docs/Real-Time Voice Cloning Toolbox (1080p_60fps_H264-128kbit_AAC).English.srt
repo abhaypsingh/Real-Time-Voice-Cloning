@@ -1,0 +1,584 @@
+1
+00:00:00,000 --> 00:00:04,799
+this is a voice coin toolbox it allows
+
+2
+00:00:02,879 --> 00:00:06,660
+you to clone the voice of someone from
+
+3
+00:00:04,799 --> 00:00:08,719
+only five seconds of audio and to
+
+4
+00:00:06,660 --> 00:00:10,740
+synthesize speech with that same voice
+
+5
+00:00:08,718 --> 00:00:13,048
+really really was impressed for them I
+
+6
+00:00:10,740 --> 00:00:17,910
+thought that they did so well and it was
+
+7
+00:00:13,048 --> 00:00:19,559
+a tough final you know I think there's a
+
+8
+00:00:17,910 --> 00:00:21,179
+way to measure the acute emotional
+
+9
+00:00:19,559 --> 00:00:24,419
+intelligence that has never gone out of
+
+10
+00:00:21,179 --> 00:00:26,070
+style things that don't work and you
+
+11
+00:00:24,420 --> 00:00:27,060
+just kind of barrel through it you know
+
+12
+00:00:26,070 --> 00:00:31,560
+you get through it
+
+13
+00:00:27,059 --> 00:00:33,359
+yeah there's a way to measure the acute
+
+14
+00:00:31,559 --> 00:00:37,710
+emotional intelligence that has never
+
+15
+00:00:33,359 --> 00:00:43,320
+gone out of style and the other thing
+
+16
+00:00:37,710 --> 00:00:44,850
+also was the format of the show there's
+
+17
+00:00:43,320 --> 00:00:46,770
+a way to measure the acute emotional
+
+18
+00:00:44,850 --> 00:00:50,640
+intelligence that has never gone out of
+
+19
+00:00:46,770 --> 00:00:52,440
+style the toolbox is cross-platform you
+
+20
+00:00:50,640 --> 00:00:54,808
+can use audio files on your desk for
+
+21
+00:00:52,439 --> 00:00:56,968
+reference or existing data set such as
+
+22
+00:00:54,808 --> 00:00:59,429
+library speech and Vox Ella you're also
+
+23
+00:00:56,969 --> 00:01:02,010
+free to record audio yourself when
+
+24
+00:00:59,429 --> 00:01:04,019
+selecting a dataset a random speaker
+
+25
+00:01:02,009 --> 00:01:06,688
+will be selected as well as a random
+
+26
+00:01:04,019 --> 00:01:09,689
+utterance from that speaker click loud
+
+27
+00:01:06,688 --> 00:01:12,959
+to load the islands in the toolbox you
+
+28
+00:01:09,688 --> 00:01:15,688
+can then play it but now and then on
+
+29
+00:01:12,959 --> 00:01:18,239
+some just occasion for vivid interest or
+
+30
+00:01:15,688 --> 00:01:19,829
+wholesome indignation once you load an
+
+31
+00:01:18,239 --> 00:01:22,079
+utterance you can see it's Mel
+
+32
+00:01:19,829 --> 00:01:24,688
+spectrogram and a representation of its
+
+33
+00:01:22,079 --> 00:01:27,179
+embedding the embedding is a numerical
+
+34
+00:01:24,688 --> 00:01:29,219
+representation of the voice if you loud
+
+35
+00:01:27,180 --> 00:01:30,810
+enough utterances in the toolbox you
+
+36
+00:01:29,219 --> 00:01:33,798
+will be able to see a 2d space
+
+37
+00:01:30,810 --> 00:01:36,329
+projection of all embeddings loaded
+
+38
+00:01:33,799 --> 00:01:38,970
+embeddings from distinct speakers will
+
+39
+00:01:36,328 --> 00:01:42,078
+form separate clusters let's select a
+
+40
+00:01:38,969 --> 00:01:42,078
+new speaker to see that
+
+41
+00:01:42,599 --> 00:01:47,459
+you can see that the two speakers from
+
+42
+00:01:45,120 --> 00:01:49,109
+distinct clusters the mole that creates
+
+43
+00:01:47,459 --> 00:01:50,879
+the embeddings is not aware of the
+
+44
+00:01:49,109 --> 00:01:52,469
+identity of the speakers so the
+
+45
+00:01:50,879 --> 00:01:54,989
+clustering is entirely based on the
+
+46
+00:01:52,469 --> 00:01:56,700
+characteristics of the voice I can
+
+47
+00:01:54,989 --> 00:01:57,780
+record my own speech a few times to
+
+48
+00:01:56,700 --> 00:02:00,478
+create my own embeddings
+
+49
+00:01:57,780 --> 00:02:03,780
+when you record an utterance the toolbox
+
+50
+00:02:00,478 --> 00:02:06,179
+you played back to you things when
+
+51
+00:02:03,780 --> 00:02:08,459
+you're recording them it is good to have
+
+52
+00:02:06,180 --> 00:02:12,590
+at least three utterances from the same
+
+53
+00:02:08,459 --> 00:02:12,590
+speaker in order to see clusters appear
+
+54
+00:02:12,800 --> 00:02:18,350
+with this last segment my cluster should
+
+55
+00:02:15,719 --> 00:02:22,050
+now become separate from the rest a
+
+56
+00:02:18,349 --> 00:02:23,879
+slight segment my cluster is now here
+
+57
+00:02:22,050 --> 00:02:25,800
+and you can see that is far from the
+
+58
+00:02:23,879 --> 00:02:28,319
+other speakers because my voice has
+
+59
+00:02:25,800 --> 00:02:30,420
+distinct characteristics you could use
+
+60
+00:02:28,319 --> 00:02:32,849
+the system for user identification
+
+61
+00:02:30,419 --> 00:02:34,649
+through voice on the plot of the most
+
+62
+00:02:32,849 --> 00:02:36,060
+recent embedding you can see that the
+
+63
+00:02:34,650 --> 00:02:39,090
+same speaker will have some common
+
+64
+00:02:36,060 --> 00:02:47,009
+patterns let's take a random speaker and
+
+65
+00:02:39,090 --> 00:02:49,140
+now the few advances you can see that
+
+66
+00:02:47,009 --> 00:02:54,090
+this speaker for example tends to
+
+67
+00:02:49,139 --> 00:02:55,649
+activate this value and this value for a
+
+68
+00:02:54,090 --> 00:02:57,870
+slice you have an embedding loaded you
+
+69
+00:02:55,650 --> 00:02:59,430
+can synthesize a voice the synthesizer
+
+70
+00:02:57,870 --> 00:03:01,110
+is in charge of generating your mouth
+
+71
+00:02:59,430 --> 00:03:03,540
+spectrum from the given embedding and
+
+72
+00:03:01,110 --> 00:03:05,910
+the text prompt here you are free to
+
+73
+00:03:03,539 --> 00:03:08,009
+write anything to be synthesized however
+
+74
+00:03:05,909 --> 00:03:09,840
+there are a couple of limitations the
+
+75
+00:03:08,009 --> 00:03:12,719
+synthesizer was trained on datasets of
+
+76
+00:03:09,840 --> 00:03:16,049
+audiobooks therefore its tone may not be
+
+77
+00:03:12,719 --> 00:03:18,599
+very natural for conversation also the
+
+78
+00:03:16,049 --> 00:03:20,579
+datasets did not contain punctuation so
+
+79
+00:03:18,599 --> 00:03:23,250
+it will be ignored for now you must
+
+80
+00:03:20,579 --> 00:03:25,700
+insert line breaks to mark poses I'm
+
+81
+00:03:23,250 --> 00:03:27,930
+hoping to improve that in the future
+
+82
+00:03:25,699 --> 00:03:30,449
+let's take the abstract of the paper
+
+83
+00:03:27,930 --> 00:03:33,480
+this toolbox is based on as reference
+
+84
+00:03:30,449 --> 00:03:35,729
+text when you click on synthesized take
+
+85
+00:03:33,479 --> 00:03:37,949
+a try on the synthesizer will generate a
+
+86
+00:03:35,729 --> 00:03:39,599
+mouth spectrogram of the speech clicking
+
+87
+00:03:37,949 --> 00:03:44,159
+several times will generate slightly
+
+88
+00:03:39,599 --> 00:03:47,219
+different speech tucked in actual audio
+
+89
+00:03:44,159 --> 00:03:49,109
+you need to run the vocoder first let's
+
+90
+00:03:47,219 --> 00:03:51,449
+listen to the voice the speech is based
+
+91
+00:03:49,110 --> 00:03:53,880
+on point your telescope in such a
+
+92
+00:03:51,449 --> 00:03:56,530
+direction at such a time and you will
+
+93
+00:03:53,879 --> 00:04:00,669
+see a new planet hitherto unknown to man
+
+94
+00:03:56,530 --> 00:04:02,349
+this must if a coder runs in sub linear
+
+95
+00:04:00,669 --> 00:04:04,209
+time with respect to the length of the
+
+96
+00:04:02,349 --> 00:04:06,219
+input so it's more efficient on long
+
+97
+00:04:04,210 --> 00:04:12,250
+sentences you can see the real time
+
+98
+00:04:06,219 --> 00:04:13,509
+factor here we describe a neural network
+
+99
+00:04:12,250 --> 00:04:14,709
+based system for text to speech
+
+100
+00:04:13,509 --> 00:04:16,358
+synthesis that is able to generate
+
+101
+00:04:14,709 --> 00:04:17,798
+speech audio the voice of different
+
+102
+00:04:16,358 --> 00:04:19,858
+speakers including those unseen during
+
+103
+00:04:17,798 --> 00:04:23,169
+trainings our system consists of three
+
+104
+00:04:19,858 --> 00:04:24,909
+independently trained components a
+
+105
+00:04:23,170 --> 00:04:26,530
+speaker encounter network trained on the
+
+106
+00:04:24,910 --> 00:04:28,150
+speaker verification task using an
+
+107
+00:04:26,529 --> 00:04:29,649
+independent data set of noisy speech
+
+108
+00:04:28,149 --> 00:04:31,779
+without transcripts from thousands of
+
+109
+00:04:29,649 --> 00:04:33,429
+speakers to generate a fixed dimensional
+
+110
+00:04:31,779 --> 00:04:35,199
+embedding vector from only seconds of
+
+111
+00:04:33,430 --> 00:04:37,000
+reference speech from a target speaker a
+
+112
+00:04:35,199 --> 00:04:38,769
+sequence the sequence synthesis Network
+
+113
+00:04:37,000 --> 00:04:40,480
+based on taciturn - that generates a mel
+
+114
+00:04:38,769 --> 00:04:41,949
+spectrogram from text conditioned on the
+
+115
+00:04:40,480 --> 00:04:43,840
+speaker embedding an autoregressive
+
+116
+00:04:41,949 --> 00:04:45,459
+wavelet base for gutter network that
+
+117
+00:04:43,839 --> 00:04:48,129
+converts the mel spectrogram into time
+
+118
+00:04:45,459 --> 00:04:49,689
+domain waveform samples now that you
+
+119
+00:04:48,129 --> 00:04:53,589
+have generated this utterance the
+
+120
+00:04:49,689 --> 00:04:55,029
+embedding will also be computed you can
+
+121
+00:04:53,589 --> 00:04:57,009
+see the synthesized embedding in the
+
+122
+00:04:55,029 --> 00:04:59,979
+projections as they are represented with
+
+123
+00:04:57,009 --> 00:05:01,539
+a cross if the voice cloning was good
+
+124
+00:04:59,980 --> 00:05:03,250
+then the cross should be close to the
+
+125
+00:05:01,540 --> 00:05:04,840
+cluster of the same speaker father
+
+126
+00:05:03,250 --> 00:05:06,699
+remembered that you will need at least
+
+127
+00:05:04,839 --> 00:05:11,228
+three utterances from the same source
+
+128
+00:05:06,699 --> 00:05:16,839
+for fair judgment you can also select
+
+129
+00:05:11,228 --> 00:05:18,639
+Griffin him as the vocoder it is not a
+
+130
+00:05:16,839 --> 00:05:20,739
+deep learning mall but it will run
+
+131
+00:05:18,639 --> 00:05:22,418
+faster for sure input and will generate
+
+132
+00:05:20,740 --> 00:05:24,970
+less parasites than the preacher in the
+
+133
+00:05:22,418 --> 00:05:31,750
+coder however it will lose many
+
+134
+00:05:24,970 --> 00:05:34,210
+characteristics of the voice this is an
+
+135
+00:05:31,750 --> 00:05:38,740
+example of a sentence generated with
+
+136
+00:05:34,209 --> 00:05:42,269
+Griffin 'ln this is an example of a
+
+137
+00:05:38,740 --> 00:05:45,240
+sentence generated with Griffin limb
+
+138
+00:05:42,269 --> 00:05:48,189
+this is an example of a sentence
+
+139
+00:05:45,240 --> 00:05:50,019
+generated with Griffin limb you will see
+
+140
+00:05:48,189 --> 00:05:52,089
+that the griffin in generated utterances
+
+141
+00:05:50,019 --> 00:05:53,439
+will form a distinct luster you can
+
+142
+00:05:52,089 --> 00:05:55,449
+observe the symphony man with the
+
+143
+00:05:53,439 --> 00:05:57,009
+pre-trained vocoder without cluster
+
+144
+00:05:55,449 --> 00:06:00,490
+should be much closer to ground truth
+
+145
+00:05:57,009 --> 00:06:03,750
+advances thank you for watching I hope
+
+146
+00:06:00,490 --> 00:06:03,750
+you enjoyed this project
+
